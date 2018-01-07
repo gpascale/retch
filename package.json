@@ -1,0 +1,23 @@
+{
+  "name": "retch",
+  "version": "0.0.1",
+  "description": "A wrapper around fetch and some utility functions with sensible defaults that I like. In particular, rejecting on bad status codes and automatic inclusion of credentials. Works in the browser or node (using node-fetch)",
+  "main": "dist/retch.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "babel src --out-dir dist --watch",
+    "build": "babel src --out-dir dist",
+    "prepublish": "npm run build"
+  },
+  "author": "Greg Pascale (greg.pascale@gmail.com)",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^1.7.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "jest-cli": "^22.0.4"
+  }
+}
