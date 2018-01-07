@@ -1,6 +1,6 @@
 {
   "name": "retch",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A wrapper around fetch and some utility functions with sensible defaults that I like. In particular, rejecting on bad status codes and automatic inclusion of credentials. Works in the browser or node (using node-fetch)",
   "main": "dist/retch.js",
   "scripts": {
